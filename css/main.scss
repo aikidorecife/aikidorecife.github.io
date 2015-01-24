@@ -51,8 +51,32 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
-img.profile { 
+div.profile {
+
+
+}
+
+img.profile_photo { 
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	border-radius: 50%;
+	padding: 0 70px;
+	margin: 0 10px
 }
+
+img#logo {
+	margin-top: 3px;
+	position: relative;
+	left: -380px;
+
+}
+
+
+div#instructor {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left-col { float: left; }
+.right-col { float: right; }
+

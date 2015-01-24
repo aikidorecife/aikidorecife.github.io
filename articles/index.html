@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Artigos
 permalink: /articles/
 ---
@@ -9,9 +9,14 @@ permalink: /articles/
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
+    {% for category in site.categories %}
+      <li>{{ category }}</li>
+    {% endfor %}
+
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.categories }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
