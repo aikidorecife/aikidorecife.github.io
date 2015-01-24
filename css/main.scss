@@ -50,3 +50,9 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+img.profile { 
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	border-radius: 50%;
+}
