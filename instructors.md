@@ -13,7 +13,7 @@ permalink: /instructors/
   <img src="{{ site.url }}/assets/gilberto-perfil.jpg" alt="Sensei Gilberto" class="right-col profile_photo" />
   </div>
   <div id="instructor">
-  <img src="{{ site.url }}/assets/felipe-perfil.jpg" alt="Sempai Felipe" class="left-col profile_photo" />
+  <img src="{{ site.url }}/assets/felipe-perfil-1.jpg" alt="Sempai Felipe" class="left-col profile_photo" />
   </div>
   <div id="instructor">
   <img src="{{ site.url }}/assets/fumyko-perfil.jpg" alt="Sempai Fumyko" class="right-col profile_photo" />
