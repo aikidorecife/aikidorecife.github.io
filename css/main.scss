@@ -55,6 +55,22 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+table {margin: .5em auto 1.5em auto; width: 98%;}
+        
+        /* Thead */
+        thead th {padding: .5em .4em; text-align: center; background: none repeat scroll 0% 0% #E0E0E0;}
+        thead td {}
+
+        /* Tbody */
+        tbody td {padding: .5em .4em; text-align: center}
+        tbody th {}
+        
+        tbody .alt td {}
+        tbody .alt th {}
+        
+        /* Tfoot */
+        tfoot th {}
+        tfoot td {}
 
 
 .boxed {
@@ -71,6 +87,11 @@ $on-laptop:        800px;
 .profile {
 	width: 50%;
 	margin-bottom: 30px;
+}
+
+.justify {
+	text-align: justify;
+	//text-justify: inter-word;
 }
 
 .profile_description  {
@@ -114,6 +135,7 @@ img.profile_photo {
 
 img.profile_photo:hover {
 	-webkit-filter: none;
+	-webkit-filter: sepia(80%);
 	filter: none;
 
 }
@@ -124,6 +146,11 @@ img.profile_photo:hover {
 	filter: none;
 	border-radius: 50%;
 
+}
+
+.boxed img:hover {
+	-webkit-filter: sepia(50%);
+	filter: none;
 }
 
 img#logo {
@@ -168,7 +195,9 @@ div#instructor {
 
 #horarios h1 {text-align: center;}
 .obs {
-	font-size: 0.6em;
+	text-align: justify;
+	font-size: 0.8em;
+	padding: 0 10px;
 }
 
 #horarios table{
@@ -176,6 +205,20 @@ div#instructor {
 	width: 100%
 }
 
+#home{
+	background-image: url("../assets/home-background-2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-filter: sepia(80%);
+	min-height: 500px;
+}
+
+#home-index img {
+	//-webkit-filter: grayscale(100%);
+	//filter: grayscale(100%);
+	-webkit-filter: sepia(70%);
+	//-webkit-filter: opacity(50%);
+}
 
 
 
