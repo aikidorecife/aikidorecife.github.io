@@ -85,8 +85,12 @@ table {margin: .5em auto 1.5em auto; width: 98%;}
 }
 
 .profile {
-	width: 50%;
-	margin-bottom: 30px;
+	width: 33%;
+	margin-bottom: 50px;
+}
+
+.auxiliar {
+	width: 33%;
 }
 
 .justify {
@@ -105,15 +109,17 @@ table {margin: .5em auto 1.5em auto; width: 98%;}
 	//font: bold 12px/30px Georgia, serif;
 	font-style: bold;
 	//padding: 10px 20px;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 	color: #222;
 }
 
 .profile_description p {
 	text-align: center;
 	font-style: italic;
-	padding: 0 50px;
-	font-size: 15px;
+	//padding: 0 50px;
+	padding: 0 0;
+	margin: 0 0;
+	font-size: 0.9em;
 	color: #777;
 }
 

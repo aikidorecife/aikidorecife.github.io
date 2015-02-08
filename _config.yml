@@ -1,13 +1,15 @@
 # Site settings
 title: "Associação Reishin Kawai"
-email: your-email@domain.com
+email: aikido@aikidorecife.org
 phone: 
 description: > # this means to ignore newlines until "baseurl:"
         Associação Reishin Kawai - Aikido Recife é um dojo de aikido.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://aikidorecife.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
 facebook_group: https://www.facebook.com/groups/493629947331797/
 
 # Build settings
