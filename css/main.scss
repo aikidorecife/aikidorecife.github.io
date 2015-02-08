@@ -206,11 +206,12 @@ div#instructor {
 }
 
 #home{
-	background-image: url("../assets/home-background-2.jpg");
+	background-image: url("../assets/home-background-1.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-filter: sepia(80%);
 	min-height: 500px;
+	width: 100%;
 }
 
 #home-index img {
