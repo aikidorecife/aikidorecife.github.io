@@ -135,8 +135,9 @@ img.profile_photo {
 
 img.profile_photo:hover {
 	-webkit-filter: none;
-	-webkit-filter: sepia(80%);
 	filter: none;
+	-webkit-filter: sepia(80%);
+	filter: sepia(80%);
 
 }
 
@@ -150,7 +151,7 @@ img.profile_photo:hover {
 
 .boxed img:hover {
 	-webkit-filter: sepia(50%);
-	filter: none;
+	filter: sepia(50%);
 }
 
 img#logo {
@@ -210,6 +211,7 @@ div#instructor {
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-filter: sepia(80%);
+	filter: sepia(80%);
 	min-height: 500px;
 	width: 100%;
 }
@@ -217,9 +219,7 @@ div#instructor {
 #home-index img {
 	//-webkit-filter: grayscale(100%);
 	//filter: grayscale(100%);
-	-webkit-filter: sepia(70%);
+	-webkit-filter: sepia(50%);
 	//-webkit-filter: opacity(50%);
 }
-
-
 
