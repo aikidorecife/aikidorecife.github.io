@@ -230,7 +230,7 @@ img#logo {
 	//filter: sepia(80%) blur(2px);
 	-webkit-filter: sepia(80%);
 	filter: sepia(80%);
-	min-height: 500px;
+	min-height: 550px;
 	//background-size: 100% 800px;
 	width: 100%;
 }
@@ -256,3 +256,18 @@ img#logo {
 	width: 30%;
 }
 
+.content-wrapper {
+	min-height: 500px;
+}
+
+#facebook-link:hover .inner-shape{
+	fill: #3b5998;
+}
+
+#gplus-link:hover .inner-shape{
+	fill: #dd4b39;
+}
+
+#youtube-link:hover .inner-shape{
+	fill: #bb0000;
+}

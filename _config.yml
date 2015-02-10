@@ -14,6 +14,11 @@ url: "http://aikidorecife.github.io" # the base hostname & protocol for your sit
 #github_username:  jekyll
 
 facebook_group: https://www.facebook.com/groups/493629947331797/
+gplus_group: https://plus.google.com/101194765953181339889/ 
+youtube_group: https://www.youtube.com/user/PAULOCANDEA/videos
+# Category-page generator
+#category_dir : 
+#category_title_prefix :
 
 # Build settings
 markdown: kramdown
