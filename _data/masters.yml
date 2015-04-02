@@ -1,16 +1,32 @@
 # ========= Ueshiba Family ==========
-- name: Morihei Ueshiba
-  title: Fundador do Aikido
-  nickname: "O'Sensei"
-  birth: "(1883 - 1969)"
-  photo: "assets/morihei4.jpg"
+#
+ueshiba_family:
+        - name: Morihei Ueshiba
+          title: Fundador do Aikido
+          nickname: "O'Sensei"
+          birth: "(1883 - 1969)"
+          photo: "assets/morihei4.jpg"
 
-- name: Kisshomaru Ueshiba
-  title: "2º Doshu"
-  birth: "(1921 - 1999)"
-  photo: "assets/kisshomaru.jpg"
+        - name: Kisshomaru Ueshiba
+          title: "2º Doshu"
+          birth: "(1921 - 1999)"
+          photo: "assets/kisshomaru.jpg"
 
-- name: Moriteru Ueshiba
-  title: "3º Doshu"
-  birth: "(1951 - )"
-  photo: "assets/moriteru.jpg"
+        - name: Moriteru Ueshiba
+          title: "3º Doshu"
+          birth: "(1951 - )"
+          photo: "assets/moriteru.jpg"
+other_masters:
+        - name: Reishin Kawai
+          title: Fundador do União-Sulamericana
+          nickname: "8º Dan"
+          birth: "(1931 - 2010)"
+          photo: "assets/kawai-perfil.jpg"
+          bio: "masters/reishin-kawai.html"
+
+        - name: Shoji Seki
+          title: "8º Dan"
+          birth: "(1950 - )"
+          photo: "assets/seki.jpg"
+
+

@@ -11,9 +11,16 @@ industry, and strives to build an enterprise where people and ideas</p>
 
 <hr class="instructor_sep" />
 
-{% for member in site.data.masters %}
+{% for member in site.data.masters['ueshiba_family'] %}
 <div class="profile left">
+	{% if member.bio %}
+	<a href="{{ site.baseurl }}/{{ member.bio }}">
+	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo"  />
+	</a>
+	{% else %}
 	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo_false"  />
+	{% endif %}
+
 	<div class="profile_description">
 		<h4>{{ member.name }}</h4>
 		<p>{{ member.title }}</p>
@@ -33,30 +40,25 @@ industry, and strives to build an enterprise where people and ideas</p>
 
 <hr class="instructor_sep" />
 
-<!-- PAULO -->
-<!--<div class="profile left" style="margin-left: 125px">-->
+{% for member in site.data.masters['other_masters'] %}
 <div class="profile left">
-
-	<a href="{{ site.baseurl }}/masters/reishin-kawai.html">
-		<img src="{{ site.url }}/assets/kawai-perfil.jpg" alt="Reishin Kawai" class="profile_photo"  />
+	{% if member.bio %}
+	<a href="{{ site.baseurl }}/{{ member.bio }}">
+	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo"  />
 	</a>
+	{% else %}
+	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo_false"  />
+	{% endif %}
+
 	<div class="profile_description">
-		<h4>Reishin Kawai</h4>
-		<p>Fundador da União-Sulamericana</p>
-		<p>8º Dan</p>
-		<p>(1931 - 2010)</p>
+		<h4>{{ member.name }}</h4>
+		<p>{{ member.title }}</p>
+		{% if member.nickname %}
+		<p>{{ member.nickname }}</p>
+		{% endif %}
+		<p>{{ member.birth }}</p>
 	</div>
 </div>
-
-<div class="profile left">
- 	<img src="{{ site.url }}/assets/seki.jpg" alt="Shoji Seki" class="profile_photo_false" />
-	<div class="profile_description">
-		<h4>Shoji Seki</h4>
-		<p>8º Dan</p>
-		<p>(1950 - )</p>
-	</div>
-</div> 
-
+{% endfor %}
 </div>
-
 

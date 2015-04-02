@@ -35,30 +35,27 @@ permalink: /instructors/
 
 <hr class="instructor_sep" />
 
-<!-- PAULO -->
-<!--<div class="profile left" style="margin-left: 125px">-->
+{% for member in site.data.instructors['instructors'] %}
 <div class="profile left">
-	<a href="{{ site.baseurl }}/instructors/paulo-candea.html">
-	<img src="{{ site.url }}/assets/paulo-perfil.jpg" alt="Sensei Paulo" class="profile_photo"  />
+	{% if member.bio %}
+	<a href="{{ site.baseurl }}/{{ member.bio }}">
+	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo"  />
 	</a>
+	{% else %}
+	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo_false"  />
+	{% endif %}
+
 	<div class="profile_description">
-		<h4>Paulo Candéa</h4>
-		<p>Presidente da Associação</p>
-		<p>Instrutor-Chefe, 4º Dan</p>
+		<h4>{{ member.name }}</h4>
+		<p>{{ member.title }}</p>
+		{% if member.nickname %}
+		<p>{{ member.nickname }}</p>
+		{% endif %}
 	</div>
+</div>
+{% endfor %}
 </div>
 
-<!-- GILBERTO -->
-<!--<div class="profile right" style="margin-right: 125px">-->
-<div class="profile left">
- 	<img src="{{ site.url }}/assets/gilberto-perfil.jpg" alt="Sensei Gilberto" class="profile_photo_false" />
-	<div class="profile_description">
-		<h4>Gilberto Francisco</h4>
-		<p>Dojo-cho</p>
-		<p>Instrutor, 2º Dan</p>
-	</div>
-</div> 
-</div>
 
 <div class="instructors left">
 <h2 style="margin: 0px 0px; clear: left">Assistentes</h2>
@@ -67,31 +64,23 @@ permalink: /instructors/
 
 <hr class="instructor_sep" />
 
-<!-- FELIPE -->
+{% for member in site.data.instructors['assistants'] %}
 <div class="profile left">
-	<img src="{{ site.url }}/assets/felipe-perfil-3.jpg" alt="Sempai Felipe" class="profile_photo_false" />
+	{% if member.bio %}
+	<a href="{{ site.baseurl }}/{{ member.bio }}">
+	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo"  />
+	</a>
+	{% else %}
+	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo_false"  />
+	{% endif %}
+
 	<div class="profile_description">
-		<h4>Felipe Alberto</h4>
-		<p>Instrutor-Auxiliar, 2º Dan</p>
+		<h4>{{ member.name }}</h4>
+		<p>{{ member.title }}</p>
+		{% if member.nickname %}
+		<p>{{ member.nickname }}</p>
+		{% endif %}
 	</div>
 </div>
-
-<!-- FUMYKO -->
-<div class="profile left">
-	<img src="{{ site.url }}/assets/fumyko-perfil.jpg" alt="Sempai Fumyko" class="profile_photo_false" />
-	<div class="profile_description">
-		<h4>Fumyko Enomoto</h4>
-	<p>Instrutora-Auxiliar, 1º Dan</p>
-	</div>
+{% endfor %}
 </div>
-
-<!-- MADSON -->
-<div class="profile left">
-	<img src="{{ site.url }}/assets/madson-perfil.jpg" alt="Sempai Madson" class="profile_photo_false" />
-	<div class="profile_description">
-		<h4>Madson Lins</h4>
-		<p>Instrutor-Auxiliar, 1º Dan</p>
-	</div>
-</div>
-</div>
-

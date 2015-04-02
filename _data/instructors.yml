@@ -1,0 +1,26 @@
+# ========= Ueshiba Family ==========
+#
+instructors:
+        - name: Paulo Candéa
+          title: Presidente da Associação
+          nickname: "Instrutor-Chefe, 4º Dan"
+          photo: "assets/paulo-perfil.jpg"
+          bio: "instructors/paulo-candea.html"
+
+        - name: Gilberto Francisco
+          title: "Dojo-cho"
+          nickname: "Instrutor, 2º Dan"
+          photo: "assets/gilberto-perfil.jpg"
+
+assistants:
+        - name: Felipe Alberto
+          title: "Instrutor-Auxiliar, 2º Dan"
+          photo: "assets/felipe-perfil-3.jpg"
+
+        - name: Fumyko Enomoto
+          title: "Instrutora-Auxiliar, 1º Dan"
+          photo: "assets/fumyko-perfil.jpg"
+
+        - name: Madson Lins
+          title: "Instrutor-Auxiliar, 1º Dan"
+          photo: "assets/madson-perfil.jpg"
