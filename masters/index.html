@@ -58,6 +58,9 @@ seja residindo no nosso país, seja ministrando seminários regulares em solo na
 	<div class="profile_description">
 		<h4>{{ member.name }}</h4>
 		<p>{{ member.title }}</p>
+		{% if member.title2 %}
+		<p>{{ member.title2 }}</p>
+		{% endif %}
 		{% if member.nickname %}
 		<p>{{ member.nickname }}</p>
 		{% endif %}

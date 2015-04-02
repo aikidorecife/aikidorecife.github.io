@@ -18,11 +18,18 @@ ueshiba_family:
           photo: "assets/moriteru.jpg"
 other_masters:
         - name: Reishin Kawai
-          title: Fundador da União-Sulamericana
+          title: "Fundador da" 
+          title2: "União Sul-Americana"
           nickname: "8º Dan"
           birth: "(1931 - 2010)"
           photo: "assets/kawai-perfil.jpg"
           bio: "masters/reishin-kawai.html"
+
+        - name: Masatake Fujita
+          title: "8º Dan"
+          birth: "(1937 - 2014)"
+          photo: "assets/fujita.jpg"
+
 
         - name: Shoji Seki
           title: "8º Dan"
