@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: post
 title: Alguns Princípios Fundamentais
+author: kawai
 ---
-
-Por: Mestre Reishin Kawai
 
 Venho abordar um assunto importante para todos que praticam AIKIDO. Vejo com
 preocupação o crescimento desta arte marcial fundamentado somente em aspectos

@@ -1,6 +1,7 @@
 ---
-layout: page
-title: Kawai Sensei -- Um Verdadeiro Líder
+layout: post
+title: Kawai Sensei, Um Verdadeiro Líder
+author: paulo
 ---
 
 Por diversas vezes meus alunos já me ouviram dizer que uma das pessoas mais
