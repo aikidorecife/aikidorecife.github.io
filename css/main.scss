@@ -288,7 +288,22 @@ img#logo {
 	fill: #bb0000;
 }
 
-#slidy-container { 
-  width: 960px; overflow: hidden; margin: 0 auto;
+//#slidy-container { 
+//  width: 960px; overflow: hidden; margin: 0 auto;
+//}
+
+#slideshow { 
+    margin: 0px auto; 
+    position: relative; 
+    width: 960px; 
+    height: 575px; 
+    padding: 0px; 
 }
 
+#slideshow > div { 
+    position: absolute; 
+    //top: 10px; 
+    //left: 10px; 
+    //right: 10px; 
+    //bottom: 10px; 
+}
