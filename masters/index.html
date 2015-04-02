@@ -11,34 +11,19 @@ industry, and strives to build an enterprise where people and ideas</p>
 
 <hr class="instructor_sep" />
 
+{% for member in site.data.masters %}
 <div class="profile left">
-	<img src="{{ site.url }}/assets/morihei4.jpg" alt="Morihei Ueshiba" class="profile_photo_false"  />
+	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo_false"  />
 	<div class="profile_description">
-		<h4>Morihei Ueshiba</h4>
-		<p>Fundador do Aikido</p>
-		<p>O'Sensei</p>
-		<p>(1883 - 1969)</p>
+		<h4>{{ member.name }}</h4>
+		<p>{{ member.title }}</p>
+		{% if member.nickname %}
+		<p>{{ member.nickname }}</p>
+		{% endif %}
+		<p>{{ member.birth }}</p>
 	</div>
 </div>
-
-<div class="profile left">
- 	<img src="{{ site.url }}/assets/kisshomaru.jpg" alt="Kisshomaru Ueshiba" class="profile_photo_false" />
-	<div class="profile_description">
-		<h4>Kisshomaru Ueshiba</h4>
-		<p>2º Doshu</p>
-		<p>(1921 - 1999)</p>
-	</div>
-</div> 
-
-<div class="profile left">
- 	<img src="{{ site.url }}/assets/moriteru.jpg" alt="Moriteru Ueshiba" class="profile_photo_false" />
-	<div class="profile_description">
-		<h4>Moriteru Ueshiba</h4>
-		<p>3º Doshu</p>
-		<p>(1951 - ) </p>
-	</div>
-</div> 
-
+{% endfor %}
 </div>
 
 <div class="instructors left">
