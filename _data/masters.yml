@@ -25,10 +25,10 @@ other_masters:
           photo: "assets/kawai-perfil.jpg"
           bio: "masters/reishin-kawai.html"
 
-        - name: Masatake Fujita
-          title: "8º Dan"
-          birth: "(1937 - 2014)"
-          photo: "assets/fujita.jpg"
+#        - name: Masatake Fujita
+#          title: "8º Dan"
+#          birth: "(1937 - 2014)"
+#          photo: "assets/fujita.jpg"
 
 
         - name: Shoji Seki
