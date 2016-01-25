@@ -22,3 +22,6 @@ youtube_group: https://www.youtube.com/user/PAULOCANDEA/videos
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
