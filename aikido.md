@@ -2,6 +2,7 @@
 layout: page
 title: Aikido
 permalink: /aikido/
+description: Aikido é uma arte marcial japonesa criada pelo mestre Morihei Ueshiba (1883-1969) que tem por base usar a força do adversário contra ele mesmo em um contexto de defesa pessoal.
 ---
 
 Aikido ou aiquidô1 [a] (em japonês: 合気道, aikidō) é uma arte marcial japonesa desenvolvida pelo mestre Morihei Ueshiba (1883-1969),
