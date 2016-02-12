@@ -1,15 +1,13 @@
-# ========= Ueshiba Family ==========
-#
 instructors:
         - name: Paulo Candéa
-          title: Presidente da Associação
+          title: "Presidente da Associação"
           nickname: "Instrutor-Chefe, 4º Dan"
           photo: "assets/paulo-perfil.jpg"
-          bio: "instructors/paulo-candea.html"
+          bio: "instrutores/paulo-candea.html"
 
         - name: Gilberto Francisco
           title: "Dojo-cho"
-          nickname: "Instrutor, 2º Dan"
+          nickname: "Instrutor, 3º Dan"
           photo: "assets/gilberto.jpg"
 
 assistants:
