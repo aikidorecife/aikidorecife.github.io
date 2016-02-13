@@ -21,6 +21,10 @@
     &:visited {
         color: $grey-color-dark;
     }
+
+    &:hover {
+	text-decoration: none;
+    }
 }
 
 .site-nav {
@@ -34,11 +38,18 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+	text-decoration: none;
+	padding: 10px 3px 10px 3px;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 15px;
+
         }
+
+	&:hover {
+	    color: #994545;
+	}
     }
 
     @include media-query($on-palm) {
