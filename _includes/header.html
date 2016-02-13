@@ -5,13 +5,15 @@
     <img id="logo" src="{{ site.url }}/assets/associacao-logo-empty.png" width=50 height=50 alt="Logo da Associação" />
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
+    {% assign current = page.url | downcase | split: '/' %}
+
     <nav class="site-nav">
       <div class="trigger">
-          <a class="page-link" href="{{ site.baseurl }}/aikido/">Aikido</a>
-          <a class="page-link" href="{{ site.baseurl }}/mestres/">Mestres</a>
-          <a class="page-link" href="{{ site.baseurl }}/dojo/">Dojo</a>
-          <a class="page-link" href="{{ site.baseurl }}/instrutores/">Instrutores</a>
-	  <a class="page-link" href="{{ site.baseurl }}/artigos/">Artigos</a>
+	      <a class="page-link" href="{{ site.baseurl }}/aikido/" {% if current[1] == 'aikido' %}class='active'{% endif %}>Aikido</a>
+	      <a class="page-link" href="{{ site.baseurl }}/mestres/" {% if current[1] == 'mestres' %}class='active'{% endif %}>Mestres</a>
+	      <a class="page-link" href="{{ site.baseurl }}/dojo/" {% if current[1] == 'dojo' %}class='active'{% endif %}>Dojo</a>
+	      <a class="page-link" href="{{ site.baseurl }}/instrutores/" {% if current[1] == 'instrutores' %}class='active'{% endif %}>Instrutores</a>
+	      <a class="page-link" href="{{ site.baseurl }}/artigos/" {% if current[1] == 'artigos' %}class='active'{% endif %}>Artigos</a>
 
       </div>
     </nav>

@@ -40,7 +40,7 @@
         line-height: $base-line-height;
 	text-decoration: none;
 	//padding: 10px 3px 10px 3px;
-	padding: 10px 6px 15px 6px;
+	padding: 17px 6px 15px 6px;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -52,6 +52,11 @@
 	    color: #994545;
 	    border-bottom: solid 3px #994545;
 	}
+    }
+
+    .page-link .active {
+	color: #994545;
+	border-bottom: solid 3px #994545;
     }
 
     @include media-query($on-palm) {
