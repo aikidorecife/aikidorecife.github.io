@@ -7,6 +7,8 @@ description: Aikido é uma arte marcial japonesa para defesa pessoal que tem por
 
 # Aikido, uma arte marcial moderna
 
+<img alt="Morihei Ueshiba projetando um aluno" src="{{ site.url }}/assets/morihei-aikido.jpg" />
+
 ## O que é o Aikido?
 ---
 O Aikido é um budo (arte marcial japonesa) desenvolvida pelo mestre Morihei Ueshiba (1883-1969), conhecido pelos praticantes de aikido
