@@ -9,12 +9,11 @@
 
     <nav class="site-nav">
       <div class="trigger">
-	      <a class="page-link" href="{{ site.baseurl }}/aikido/" {% if current[1] == 'aikido' %}class='active'{% endif %}>Aikido</a>
-	      <a class="page-link" href="{{ site.baseurl }}/mestres/" {% if current[1] == 'mestres' %}class='active'{% endif %}>Mestres</a>
-	      <a class="page-link" href="{{ site.baseurl }}/dojo/" {% if current[1] == 'dojo' %}class='active'{% endif %}>Dojo</a>
-	      <a class="page-link" href="{{ site.baseurl }}/instrutores/" {% if current[1] == 'instrutores' %}class='active'{% endif %}>Instrutores</a>
-	      <a class="page-link" href="{{ site.baseurl }}/artigos/" {% if current[1] == 'artigos' %}class='active'{% endif %}>Artigos</a>
-
+	      <a class="page-link {% if current[1] == 'aikido' %}active{% endif %}" href="{{ site.baseurl }}/aikido/" >Aikido</a>
+	      <a class="page-link {% if current[1] == 'mestres' %}active{% endif %}" href="{{ site.baseurl }}/mestres/">Mestres</a>
+	      <a class="page-link {% if current[1] == 'dojo' %}active{% endif %}" href="{{ site.baseurl }}/dojo/">Dojo</a>
+	      <a class="page-link {% if current[1] == 'instrutores' %}active{% endif %}" href="{{ site.baseurl }}/instrutores/">Instrutores</a>
+	      <a class="page-link {% if current[1] == 'artigos' %}active{% endif %}" href="{{ site.baseurl }}/artigos/">Artigos</a>
       </div>
     </nav>
 
