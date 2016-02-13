@@ -45,7 +45,7 @@ Como já diz o ditado, um vídeo vale mais do que 1 milhão de palavras. O víde
 técnicas de Aikido, realizadas por um mestre nesta arte marcial.
 
 <div style="width: 80%; height: 350px; margin: 20px auto; ">
-<iframe width="80%" height="350" src="https://www.youtube.com/embed/zanG0XnNWKE" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/zanG0XnNWKE" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
