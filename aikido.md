@@ -33,6 +33,31 @@ e pode ser traduzido como o "caminho da harmonização com a energia".
 
 ## Quem pode treinar Aikido?
 ---
+Embora o Aikido seja uma atividade física, os movimentos realizados nesta arte devem ser confortáveis
+e totalmente naturais, lembre-se de que um dos príncipios do Aikido é não usar força para aplicar as
+técnicas, portanto qualquer pessoa, com qualquer tamanho, peso ou nível de atletismo pode realizar os
+movimentos necessários. E caso exista algum impedimento físico à realização do movimento, isto é levado
+em consideração pelo instrutor, e a evolução do aluno será acompanhada de perto.
+
+Resumindo, o Aikido é uma atividade física que pode ser adaptada a qualquer tipo de realidade do indivíduo,
+o treino pode ser adaptado para crianças, para idosos, para deficientes e até para pessoas com problemas
+de saúde (e.g. na coluna). Crianças com mais de 7 anos e idosos com 100 anos são bem-vindos!
+
+
+## Quais os benefícios da prática do Aikido?
+---
+Sendo uma atividade física o Aikido possui os mesmos benefícios de qualquer atividade física, melhorando
+a saúde e a disposição dos seus praticantes, mas isso não é tudo, o Aikido nos ensina como mover os nossos
+corpos de forma natural, aprendemos a ter uma boa postura, aprendemos a relaxar genuinamente e liberar as
+tensões que existem nos nossos corpos. 
+
+O Aikido nos faz reaprender aquilo que as crianças sabem bem, e que acabam esquecendo ao crescerem e se
+tornarem adultos: como agir naturalmente e como ter centro! No longo prazo, a prática do Aikido não só irá
+aumentar seu nível atlético e de condicionamento físico, mas também trará efeitos benéficos para o seu
+bem-estar em geral. Alguns chegam a dizer que: "Aikido é meditação em movimento".
+
+Além de ser bom para você, o Aikido o fará se sentir bem!
+
 
 ## Como são as técnicas de Aikido?
 ---
