@@ -59,6 +59,11 @@
 	border-bottom: solid 3px #994545;
     }
 
+    #active {
+	color: #994545;
+	border-bottom: solid 3px #994545;
+    }
+
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
