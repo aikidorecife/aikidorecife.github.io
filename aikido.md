@@ -48,15 +48,13 @@ de saúde (e.g. na coluna). Crianças com mais de 7 anos e idosos com 100 anos s
 ---
 Sendo uma atividade física o Aikido possui os mesmos benefícios de qualquer atividade física, melhorando
 a saúde e a disposição dos seus praticantes, mas isso não é tudo, o Aikido nos ensina como mover os nossos
-corpos de forma natural, aprendemos a ter uma boa postura, aprendemos a relaxar genuinamente e liberar as
-tensões que existem nos nossos corpos. 
+corpos de forma natural, aprendendo a ter uma boa postura, a relaxar genuinamente e liberar a tensão e o
+stress acumulados.
 
 O Aikido nos faz reaprender aquilo que as crianças sabem bem, e que acabam esquecendo ao crescerem e se
 tornarem adultos: como agir naturalmente e como ter centro! No longo prazo, a prática do Aikido não só irá
 aumentar seu nível atlético e de condicionamento físico, mas também trará efeitos benéficos para o seu
-bem-estar em geral. Alguns chegam a dizer que: "Aikido é meditação em movimento".
-
-Além de ser bom para você, o Aikido o fará se sentir bem!
+bem-estar. Alguns dizem que: "Aikido é meditação em movimento".
 
 
 ## Como são as técnicas de Aikido?
@@ -69,7 +67,7 @@ em socos ou chutes, e a sua utilização costuma ser
 Como já diz o ditado, um vídeo vale mais do que 1 milhão de palavras. O vídeo abaixo é uma demonstração de algumas
 técnicas de Aikido, realizadas por um mestre nesta arte marcial.
 
-<div style="width: 80%; height: 350px; margin: 20px auto; ">
+<div style="width: 80%; height: 350px; margin: 30px auto; ">
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/zanG0XnNWKE" frameborder="0" allowfullscreen></iframe>
 </div>
 
