@@ -48,10 +48,29 @@
 
         }
 
+	&:link {
+	}
+
+	/* visited link */
+	&:visited {
+	   
+	}
+
+	/* mouse over link */
 	&:hover {
 	    color: #994545;
 	    border-bottom: solid 3px #994545;
 	}
+
+	/* selected link */
+	&:active {
+	    border: solid 0px;
+	}
+
+
+
+
+
     }
 
     #trigger a.active {
