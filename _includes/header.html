@@ -10,10 +10,10 @@
     <nav class="site-nav">
       <div class="trigger">
 	      <a {% if current[1] == 'aikido' %}id="active"{% endif %} class="page-link" href="{{ site.baseurl }}/aikido/" >Aikido</a>
-	      <a class="page-link {% if current[1] == 'mestres' %}active{% endif %}" href="{{ site.baseurl }}/mestres/">Mestres</a>
-	      <a class="page-link {% if current[1] == 'dojo' %}active{% endif %}" href="{{ site.baseurl }}/dojo/">Dojo</a>
-	      <a class="page-link {% if current[1] == 'instrutores' %}active{% endif %}" href="{{ site.baseurl }}/instrutores/">Instrutores</a>
-	      <a class="page-link {% if current[1] == 'artigos' %}active{% endif %}" href="{{ site.baseurl }}/artigos/">Artigos</a>
+	      <a {% if current[1] == 'mestres' %}id="active"{% endif %} class="page-link" href="{{ site.baseurl }}/mestres/">Mestres</a>
+	      <a {% if current[1] == 'dojo' %}id="active"{% endif %} class="page-link" href="{{ site.baseurl }}/dojo/">Dojo</a>
+	      <a {% if current[1] == 'instrutores' %}id="active"{% endif %} class="page-link" href="{{ site.baseurl }}/instrutores/">Instrutores</a>
+	      <a {% if current[1] == 'artigos' %}id="active"{% endif %} class="page-link" href="{{ site.baseurl }}/artigos/">Artigos</a>
       </div>
     </nav>
 
