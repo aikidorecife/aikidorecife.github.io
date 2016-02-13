@@ -11,33 +11,26 @@ description: Aikido é uma arte marcial japonesa para defesa pessoal que tem por
 
 ## O que é o Aikido?
 ---
-O Aikido é um budo (arte marcial japonesa) desenvolvida pelo mestre Morihei Ueshiba (1883-1969), conhecido pelos praticantes de aikido
-como O'Sensei (Grande Mestre) ou "fundador", ao longo das décadas de 1930 à 1960, sendo criado através da fusão das técnicas do Daito-Ryu
-Aiki-jujutsu (uma antiga arte marcial japonesa) e a filosofia de uma das novas religiões japonesas do começo do séc. 20, a Omoto-kyo.
-Pela influência da filosofia e crenças da Omoto-kyo, Morihei Ueshiba adaptou as eficientes e muitas vezes brutais técnicas do Daito-Ryu
-para que se adequassem ao princípio da harmonia, naturalidade e não violência, criando assim o Aikido. 
+O Aikido é um budo (arte marcial japonesa) desenvolvida pelo mestre Morihei Ueshiba (1883-1969),
+conhecido pelos praticantes de aikido como O'Sensei (Grande Mestre) ou "fundador", ao longo das
+décadas de 1930 à 1960, sendo criado através da fusão das técnicas do Daito-Ryu Aiki-jujutsu (uma
+antiga arte marcial japonesa) e a filosofia de uma das novas religiões japonesas do começo do séc. 20,
+a Omoto-kyo. Pela influência da filosofia e crenças da Omoto-kyo, Morihei Ueshiba adaptou as eficientes
+e muitas vezes brutais técnicas do Daito-Ryu para que se adequassem ao princípio da harmonia, naturalidade
+ e não violência, criando assim o Aikido. 
 
-## Qual o significado da palavra Aikido?
+## O que significa a palavra Aikido?
 ---
-A palavra aikido é escrita em japonês como 合気道:
+A palavra Aikido é escrita em japonês como 合気道:
 
-  - AI (合): harmonia
+  - AI (合): harmonia, união
   - KI (気): energia
   - DO (道): caminho
 
-portanto, aikido pode ser traduzido como o "caminho da harmonização com a energia".
+e pode ser traduzido como o "caminho da harmonização com a energia".
 
-
-
-
-
-através da combinação das técnicas de  (budo)ou aiquidô1 [a] (em japonês:  aikidō) é uma arte marcial japonesa desenvolvida pelo mestre Morihei Ueshiba (1883-1969),
-aproximadamente entre os anos de 1930 e 1960,2 como um compêndio dos seus estudos marciais, filosofia e crenças religiosas. O aikido é,
-frequentemente, traduzido como "o caminho da unificação (com) da energia da vida",3 ou "o caminho do espírito harmonioso".4 O objetivo
-de Ueshiba era criar uma arte em que os seus praticantes pudessem defender-se a si próprios a partir do ataque adversário. O cerne desta
-arte marcial orbita em torno do uso pragmático da energia num combate, no controlo desse fluxo. Os praticantes desta arte respeitosamente
- chamam seu criador de O-Sensei ("Grande Mestre"), ou "fundador".5
-
+## Uma breve história do Aikido
+---
 O aikido é exercido através da combinação de movimentos atacantes, redireccionando a força adversária,
 ao invés de combatê-la directamente. Isto requer uma reduzida força física, uma vez que o aikidōka
 (praticante de aikido) conduz o impulso atacante dando entrada ao ataque a partir da transformação
@@ -56,3 +49,15 @@ presente nas mais diversas disciplinas orientais, o qual pretende resolver uma d
 choque mas pela concórdia.8 Outro importante atributo desta arte é seu apego ao desenvolvimento espiritual.
 Isso advindo dum dos mentores de Ueshiba, o monge Onisaburo Deguchi, líder da seita Oomoto-kyo, no Japão,
 a quem, depois de um encontro fortuito, passou a seguir e ser protector pessoal.9
+
+## Aikido no Brasil
+---
+O Aikido chegou ao Brasil em 1973, quando o imigrante japonês Reishin Kawai se instalou em São Paulo e
+começou a ministrar aulas.
+
+
+## Aikido em Recife
+---
+O Aikido tradicional começou a ser ensinado em Recife em 1990, quando o Sensei Augusto Barrinha se mudou
+para a cidade por ordem de Kawai Sensei. 
+
