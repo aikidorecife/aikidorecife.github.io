@@ -35,7 +35,22 @@ e pode ser traduzido como o "caminho da harmonização com a energia".
 ---
 
 ## Como são as técnicas de Aikido?
+---
+As técnicas de Aikido envolvem torções e chaves para controlar o adversário e imobilizá-lo, além de projeções.
+Como uma verdadeira arte marcial, e ao contrário de esportes, o Aikido não possui regras (i.e. proibindo socos, etc),
+portanto socos, chutes, ou qualquer outro artifício são todos permitidos. Dito isso, o treinamento não está focado
+em socos ou chutes, e a sua utilização costuma ser 
 
+Como já diz o ditado, um vídeo vale mais do que 1 milhão de palavras. O vídeo abaixo é uma demonstração de algumas
+técnicas de Aikido, realizadas por um mestre nesta arte marcial.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/zanG0XnNWKE" frameborder="0" allowfullscreen></iframe>
 
 ## Como é um treino de Aikido?
 ---
+No ínicio do treino se costuma realizar um breve alongamento/aquecimento, após isso o instrutor irá
+demonstrar algumas técnicas de sua escolha, e depois de cada demonstração duplas de alunos são formadas
+(pelos próprios alunos) e cada dupla busca realizar a técnica que foi demonstrada de acordo com o seu
+entendimento da mesma. Durante o treino, os membros de uma dupla revezam entre o papel do atacante (uke)
+e o papel do defensor (nage), onde é sempre o nage que aplica a técnica e o uke a recebe. Não existe competição
+alguma entre os alunos, existe sim uma cooperação para o aprendizado mútuo.
