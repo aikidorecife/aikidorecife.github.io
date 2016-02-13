@@ -44,7 +44,10 @@ em socos ou chutes, e a sua utilização costuma ser
 Como já diz o ditado, um vídeo vale mais do que 1 milhão de palavras. O vídeo abaixo é uma demonstração de algumas
 técnicas de Aikido, realizadas por um mestre nesta arte marcial.
 
-<iframe class="center" width="80%" height="315" src="https://www.youtube.com/embed/zanG0XnNWKE" frameborder="0" allowfullscreen></iframe>
+<div style="width: 80%; height: 350px; margin: 20px auto; ">
+<iframe width="80%" height="350" src="https://www.youtube.com/embed/zanG0XnNWKE" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 ## Como é um treino de Aikido?
 ---
