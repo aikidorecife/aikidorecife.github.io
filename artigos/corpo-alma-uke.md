@@ -1,8 +1,4 @@
----
-layout: post
-title: Corpo e Alma do Uke
-author: seki
----
+#Corpo e Alma do Uke
 
 Essa entrevista com Seki Sensei foi realizada por uma revista japonesa de Aikido.
 Reproduzimos aqui o conteúdo dessa entrevista, traduzido para o português à partir
@@ -17,7 +13,7 @@ preucupar durante a prática, para que ela seja frutuosa”.
 Na prática do Aikido, não apenas o Nage, mas tanto o Nage quanto o Uke, realizam
 uma técnica através da ajuda mútua. A razão para isso, é que o movimento que você
 quer alcançar é muito difícil de realizar na sua primeira tentativa. O Nage pratica
-com às respostas gentis do Uke, de novo, e de novo, e então o Nage irá progredir
+com as respostas gentis do Uke, de novo, e de novo, e então o Nage irá progredir
 pouco à pouco para fazer um movimento ideal.
 
 Então, eu quero que o iniciante se acostume à ser projetado. Normalmente, ser
