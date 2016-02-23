@@ -5,7 +5,7 @@ permalink: /aikido/
 description: Aikido é uma arte marcial japonesa para defesa pessoal que tem por princípio usar a força do adversário contra ele mesmo.
 ---
 
-# Aikido, 
+# Aikido, uma arte marcial moderna
 
 <img alt="Morihei Ueshiba projetando um aluno" src="{{ site.url }}/assets/morihei-aikido.jpg" width="100%" />
 
