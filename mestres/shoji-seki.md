@@ -3,7 +3,6 @@ layout: page
 title: Shoji Seki
 ---
 
-<img src="{{ site.baseurl }}/assets/kawai-articles.jpg" />
 
 Shoji Seki nasceu em 6 de março de 1950, em Yamagata (Japão). Se graduou 
 na "Musashi School of Technological Industry". Iniciou sua prática no
@@ -23,7 +22,6 @@ Tokyo aïkikai, world aikido centre, hosts all year long, aikido practicing peop
 Taking the responsibility of instruction assistant director, he is one of the closest partners of Master UESHIBA Moriteru, grand sun of aikido founder. Answering to the invitation of Mr Daniel Jean-Pierre, 6th dan aïkikaï, aikido instructor in Nice and in Sophia Antipolis (Côte d'azur), Seki Senseï has been leading a seminar for 11 years in Boulouris near Saint Raphaël (côte d'azur). The rest of the year, in addition to his courses taught at hombu dojo and in others Dojos around Tokyo, Seki Senseï does seminars in the entire world. He regularly goes to the United States, Brazil, Peru, Russia, Poland, Israel, Australia, Indonesia Etc.
 
 Caring omni presently about pedagogy and rigor, Seki Sensei teaches a fundamental aikido respecting the principles and bases created by O SENSEI Morihei UESHIBA. Invited for the first time by Tony Sanchez in 2008 to celebrate de 30th anniversary of the Chateaudun club of aikido, Seki Sensei will do honour us by leading in 2015 a 8th seminar in Châteaudun. This seminar will take place from the 06th to the 08th of March 2015. 
-
 
 
 Referências:
