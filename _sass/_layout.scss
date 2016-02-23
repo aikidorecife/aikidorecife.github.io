@@ -296,4 +296,13 @@
 	margin-bottom: 20px;
 	width: 30%;
     }
+
+    a, a:active, a:focus {
+        outline: none;
+        outline: 0;
+    }
+
+    input::-moz-focus-inner {
+        border: 0;
+    }
 }
