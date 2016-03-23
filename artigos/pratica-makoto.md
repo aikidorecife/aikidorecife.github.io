@@ -2,7 +2,7 @@
 layout: post
 title: A Prática de Makoto
 author: paulo
-date: 24/10/2014
+date: 24 de outubro de 2014
 ---
 
 Quando iniciei meu caminho no *Aikido* há alguns anos, ouvia muito a seguinte
