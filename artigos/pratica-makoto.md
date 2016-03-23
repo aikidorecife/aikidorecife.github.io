@@ -58,8 +58,8 @@ que conheci em minha vida, meu falecido Mestre Reishin Kawai;
 Como já falei muito, vou encerrar com uma faísca de sabedoria que recebi de minha
 esposa há 10 semanas atrás:
 
-| Até hoje não encontrei tanta **sinceridade** (Makoto) nas pessoas
-| como tenho encontrado naquelas que praticam o **Aikido**!
+> Até hoje não encontrei tanta **sinceridade** (Makoto) nas pessoas
+> como tenho encontrado naquelas que praticam o **Aikido**!
  
 Que todos sempre busquem o caminho de AIKI !!!!!
 
