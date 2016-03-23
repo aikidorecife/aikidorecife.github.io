@@ -8,7 +8,7 @@ date: 24/10/2014
 Quando iniciei meu caminho no *Aikido* há alguns anos, ouvia muito a seguinte
 definição:
 
-> “*Aikido*, a arte da paz!”
+> *Aikido*, a arte da paz!
 
 Passados alguns anos tornou-se impossível deixar de comprovar que a definição
 acima é uma grande verdade, e por quê? Vou citar algumas poucas razões:
@@ -58,8 +58,8 @@ que conheci em minha vida, meu falecido Mestre Reishin Kawai;
 Como já falei muito, vou encerrar com uma faísca de sabedoria que recebi de minha
 esposa há 10 semanas atrás:
 
-> “Até hoje não encontrei tanta SINCERIDADE (Makoto) nas
-> pessoas como tenho encontrado naquelas que praticam o **Aikido**!”
+| Até hoje não encontrei tanta **sinceridade** (Makoto) nas pessoas
+| como tenho encontrado naquelas que praticam o **Aikido**!
  
 Que todos sempre busquem o caminho de AIKI !!!!!
 
