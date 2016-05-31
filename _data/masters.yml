@@ -3,41 +3,47 @@
 ueshiba_family:
         - name: Morihei Ueshiba
           title: Fundador do Aikido
-          nickname: "O'Sensei"
-          birth: "(1883 - 1969)"
-          photo: "assets/morihei4.jpg"
-          bio: "mestres/morihei-ueshiba.html"
+          #nickname: "O'Sensei"
+          nickname: "&#9733;1883"
+          birth: "&#x271d;1969"
+          photo: "/assets/morihei4.jpg"
+          bio: "/mestres/morihei-ueshiba.html"
 
         - name: Kisshomaru Ueshiba
           title: "2º Doshu"
-          birth: "(1921 - 1999)"
-          photo: "assets/kisshomaru.jpg"
-          bio: "mestres/kisshomaru-ueshiba.html"
+          #birth: "&#9733;1921 – &#x271d;1999"
+          birth: "1921 – 1999"
+          photo: "/assets/kisshomaru.jpg"
+          bio: "/mestres/kisshomaru-ueshiba.html"
 
         - name: Moriteru Ueshiba
           title: "3º Doshu"
-          birth: "(1951 - )"
-          photo: "assets/moriteru.jpg"
-          bio: "mestres/moriteru-ueshiba.html"
+          birth: "&#9733;1951"
+          #birth: "1951 – "
+          photo: "/assets/moriteru.jpg"
+          bio: "/mestres/moriteru-ueshiba.html"
 
 other_masters:
         - name: Reishin Kawai
-          title: "Fundador da" 
-          title2: "União Sul-Americana"
-          nickname: "8º Dan"
-          birth: "(1931 - 2010)"
-          photo: "assets/kawai-perfil.jpg"
-          bio: "mestres/reishin-kawai.html"
+          title: "8º Dan"
+          #title: "Fundador da" 
+          #title2: "União Sul-Americana"
+          #nickname: "8º Dan"
+          birth: "&#9733;1931 – &#x271d;2010"
+          #birth: "(1931 – 2010)"
+          photo: "/assets/kawai-perfil.jpg"
+          bio: "/mestres/reishin-kawai.html"
 
 #        - name: Masatake Fujita
 #          title: "8º Dan"
-#          birth: "(1937 - 2014)"
+#          birth: "(1937 – 2014)"
 #          photo: "assets/fujita.jpg"
 
         - name: Shoji Seki
           title: "8º Dan"
-          birth: "(1950 - )"
-          photo: "assets/seki.jpg"
-          bio: "mestres/shoji-seki.html"
+          birth: "&#9733;1950"
+          #birth: "(1950 – )"
+          photo: "/assets/seki.jpg"
+          bio: "/mestres/shoji-seki.html"
 
 

@@ -1,24 +1,29 @@
 instructors:
-        - name: Paulo Candéa
+        - name: "Paulo Candéa"
           title: "Presidente da Associação"
-          nickname: "Instrutor-Chefe, 4º Dan"
-          photo: "assets/paulo-perfil.jpg"
-          bio: "instrutores/paulo-candea.html"
+          title2: "Instrutor-Chefe"
+          rank: "4º Dan"
+          photo: "/assets/paulo-perfil.jpg"
+          bio: "/instrutores/paulo-candea.html"
 
-        - name: Gilberto Francisco
+        - name: "Gilberto Francisco"
           title: "Dojo-cho"
-          nickname: "Instrutor, 3º Dan"
-          photo: "assets/gilberto.jpg"
+          title2: "Instrutor"
+          rank: "3º Dan"
+          photo: "/assets/gilberto.jpg"
 
 assistants:
-        - name: Felipe Alberto
-          title: "Instrutor-Auxiliar, 2º Dan"
-          photo: "assets/felipe-perfil-3.jpg"
+        - name: "Felipe Alberto"
+          title2: "Instrutor-Auxiliar"
+          rank: "2º Dan"
+          photo: "/assets/felipe-perfil-3.jpg"
 
-        - name: Fumyko Enomoto
-          title: "Instrutora-Auxiliar, 1º Dan"
-          photo: "assets/fumyko-perfil.jpg"
+        - name: "Fumyko Enomoto"
+          title2: "Instrutora-Auxiliar"
+          rank: "1º Dan"
+          photo: "/assets/fumyko-perfil.jpg"
 
-        - name: Madson Lins
-          title: "Instrutor-Auxiliar, 1º Dan"
-          photo: "assets/madson-perfil.jpg"
+        - name: "Madson Lins"
+          title2: "Instrutor-Auxiliar"
+          rank: "1º Dan"
+          photo: "/assets/madson-perfil.jpg"
