@@ -2,37 +2,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
- {% if page.description %}
-  <meta name="description" content="{{ page.description}}" />
- {% endif %}
-
+  {% if page.description %}<meta name="description" content="{{ page.description}}" />{% endif %}
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
+  <link href='https://fonts.googleapis.com/css?family=Raleway|Merriweather|Open+Sans|Lora|Libre+Baskerville|Montserrat|Domine|Lato' rel='stylesheet' type='text/css'>
 
-  <link rel="icon" type="image/png" href="{{ site.url }}/assets/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="{{ site.url }}/assets/favicon-16x16.png" sizes="16x16" />
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="/js/galleria/galleria-1.4.2.min.js"></script>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-  <script>
-  $(function() {
-
-	$("#slideshow > div:gt(0)").hide();
-
-	setInterval(function() {
-	  $('#slideshow > div:first')
-	    .fadeOut(1500)
-	    .next()
-	    .fadeIn(1500)
-	    .end()
-	    .appendTo('#slideshow');
-	},  5000);
-
-  });
-  </script>
-
-   {% include google_analytics.html %}
-
+  {% include google_analytics.html %}
 </head>

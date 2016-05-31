@@ -1,22 +1,20 @@
 <header class="site-header">
-
   <div class="wrapper">
+    <a href="/" class="site-title">
+      <div class="logo">
+      <img class="image-logo" src="/assets/associacao-logo-empty.png" width=50 height=50 alt="Logo da Associação Reishin Kawai" />
+      <p>{{ site.title }}</p>
+      </div>
+    </a>
 
-    <img id="logo" src="{{ site.url }}/assets/associacao-logo-empty.png" width=50 height=50 alt="Logo da Associação" />
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    {% assign current = page.url | downcase | split: '/' %}
+    {% assign curr = page.url | downcase | split: '/' %}
 
     <nav class="site-nav">
-      <div class="trigger">
-	      <a {% if current[1] == 'aikido' %}id="active"{% endif %} class="page-link" href="{{ site.baseurl }}/aikido/" >Aikido</a>
-	      <a {% if current[1] == 'mestres' %}id="active"{% endif %} class="page-link" href="{{ site.baseurl }}/mestres/">Mestres</a>
-	      <a {% if current[1] == 'dojo' %}id="active"{% endif %} class="page-link" href="{{ site.baseurl }}/dojo/">Dojo</a>
-	      <a {% if current[1] == 'instrutores' %}id="active"{% endif %} class="page-link" href="{{ site.baseurl }}/instrutores/">Instrutores</a>
-	      <a {% if current[1] == 'artigos' %}id="active"{% endif %} class="page-link" href="{{ site.baseurl }}/artigos/">Artigos</a>
-      </div>
+      <a {% if curr[1] == 'aikido' %}class="active"{% endif %} href="/aikido/" >Aikido</a>
+      <a {% if curr[1] == 'mestres' %}class="active"{% endif %} href="/mestres/">Mestres</a>
+      <a {% if curr[1] == 'dojo' %}class="active"{% endif %} href="/dojo/">Dojo</a>
+      <a {% if curr[1] == 'instrutores' %}class="active"{% endif %} href="/instrutores/">Instrutores</a>
+      <a {% if curr[1] == 'artigos' %}class="active"{% endif %} href="/artigos/">Artigos</a>
     </nav>
-
   </div>
-
 </header>
