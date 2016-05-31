@@ -1,73 +1,72 @@
 ---
-layout: page-notitle
+layout: default
 title: Mestres de Aikido - Associação Reishin Kawai
 permalink: /mestres/
 description: Conheça alguns dos mais importantes mestres de Aikido do mundo, inclusive os mestres que foram importantes para o Aikido no Brasil.
 ---
+<section class="profile-section">
+  <h2>Família Ueshiba</h2>
+  <p style="margin: 0px 0px 10px 0; padding: 0px 0px 10px 0px; color: #888; width: 75%; text-align: justify; bottom-border:  #ddd 2px dotted">
+    A história do Aikido está diretamente ligada com a história da Família Ueshiba, que através da
+    <a href="http://www.aikikai.or.jp/eng/">Aikikai</a>, continua liderando o mundo quando se trata
+    da transmissão do Aikido Tradicional.
+  </p>
 
-<div class="instructors left">
-<h2 style="margin: 0px 0px; clear: left">Família Ueshiba</h2>
-<p style="margin: 0px 0px 10px 0; padding: 0px 0px 10px 0px; color: #888; width: 75%; text-align: justify; bottom-border:  #ddd 2px dotted">
-A história do Aikido está diretamente ligada com a história da Família Ueshiba, que através da
-<a href="http://www.aikikai.or.jp/eng/">Aikikai</a>, continua liderando o mundo quando se trata
-da transmissão do Aikido Tradicional.
-</p>
+  <hr class="instructor-sep" />
+  <div class="profile-list">
+  {% for member in site.data.masters['ueshiba_family'] %}
+    <figure class="profile">
+      {% if member.bio %}
+        <a href="{{ member.bio }}">
+          <img class="profile_photo" src="{{ member.photo }}" alt="{{ member.name }}" />
+        </a>
+      {% else %}
+        <img class="profile_photo_false" src="{{ member.photo }}" alt="{{ member.name }}" />
+      {% endif %}
 
-<hr class="instructor_sep" />
+      <figcaption class="profile_description">
+        <h4>{{ member.name }}</h4>
+        <p>{{ member.title }}</p>
+        {% if member.nickname %}
+          <p>{{ member.nickname }}</p>
+        {% endif %}
+        <p>{{ member.birth }}</p>
+      </figcaption>
+    </figure>
+  {% endfor %}
+  </div>
+</section>
 
-{% for member in site.data.masters['ueshiba_family'] %}
-<div class="profile left">
-	{% if member.bio %}
-	<a href="{{ site.baseurl }}/{{ member.bio }}">
-	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo"  />
-	</a>
-	{% else %}
-	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo_false"  />
-	{% endif %}
+<section class="profile-section">
+  <h2>Mestres no Brasil</h2>
+  <p style="margin: 0px 0px 10px 0; padding: 0px 0px 10px 0px; color: #888; width: 75%; text-align: justify; bottom-border:  #ddd 2px dotted">
+    Nessa lista estão alguns mestres que têm ou tiveram importante relevância no cenário local (Brasil),
+    seja residindo no nosso país, seja ministrando seminários regulares em solo nacional.
+  </p>
+  <hr class="instructor-sep" />
+    <div class="profile-list">
+  {% for member in site.data.masters['other_masters'] %}
+    <figure class="profile">
+      {% if member.bio %}
+        <a href="{{ member.bio }}">
+          <img class="profile_photo" src="{{ member.photo }}" alt="{{ member.name }}" />
+        </a>
+      {% else %}
+        <img class="profile_photo_false" src="{{ member.photo }}" alt="{{ member.name }}" />
+      {% endif %}
 
-	<div class="profile_description">
-		<h4>{{ member.name }}</h4>
-		<p>{{ member.title }}</p>
-		{% if member.nickname %}
-		<p>{{ member.nickname }}</p>
-		{% endif %}
-		<p>{{ member.birth }}</p>
-	</div>
-</div>
-{% endfor %}
-</div>
-
-<div class="instructors left">
-<h2 style="margin: 0px 0px; clear: left">Mestres no Brasil</h2>
-<p style="margin: 0px 0px 10px 0; padding: 0px 0px 10px 0px; color: #888; width: 75%; text-align: justify; bottom-border:  #ddd 2px dotted">
-Nessa lista estão alguns mestres que têm ou tiveram importante relevância no cenário local (Brasil),
-seja residindo no nosso país, seja ministrando seminários regulares em solo nacional.
-</p>
-
-<hr class="instructor_sep" />
-
-{% for member in site.data.masters['other_masters'] %}
-<div class="profile left">
-	{% if member.bio %}
-	<a href="{{ site.baseurl }}/{{ member.bio }}">
-	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo"  />
-	</a>
-	{% else %}
-	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo_false"  />
-	{% endif %}
-
-	<div class="profile_description">
-		<h4>{{ member.name }}</h4>
-		<p>{{ member.title }}</p>
-		{% if member.title2 %}
-		<p>{{ member.title2 }}</p>
-		{% endif %}
-		{% if member.nickname %}
-		<p>{{ member.nickname }}</p>
-		{% endif %}
-		<p>{{ member.birth }}</p>
-	</div>
-</div>
-{% endfor %}
-</div>
-
+      <figcaption class="profile_description">
+        <h4>{{ member.name }}</h4>
+        <p>{{ member.title }}</p>
+	{% if member.title2 %}
+          <p>{{ member.title2 }}</p>
+        {% endif %}
+        {% if member.nickname %}
+          <p>{{ member.nickname }}</p>
+        {% endif %}
+        <p>{{ member.birth }}</p>
+      </figcaption>
+    </figure>
+  {% endfor %}
+    </div>
+</section>
