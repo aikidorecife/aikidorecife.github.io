@@ -1,263 +1,151 @@
-table {
-    margin: .5em auto 1.5em auto; width: 98%;
+/**********************************/
+/*********** PROFILES *************/
+/**********************************/
+.profile-list {clear: both}
+
+figure.profile {
+	display: inline-block;
+
+	img {
+		border-radius: 50%;
+		margin: 0 auto;
+		display: block;
+		width: 150px;
+		height: 150px;
+
+		&:hover {-webkit-filter: none; filter: none;}
+	}
+
+	.image-wrapper {margin-right: 10px; margin-left: 10px;}
 }
-        
-/* Thead */
-thead th {
-    padding: .5em .4em;
-    text-align: center;
-    background: none repeat scroll 0% 0% #E0E0E0;
+
+figure.profile figcaption {
+    margin: 0 auto;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 10px 0px 10px;
+
+    h4 {
+        text-align: center;
+        font-style: bold;
+        margin-bottom: 2px;
+        color: #222;
+    }
+
+    p {
+        text-align: center;
+        font-style: italic;
+        padding: 0 0;
+        margin: 0 0;
+        font-size: 0.9em;
+        color: #777;
+    }
 }
-thead td {}
-
-/* Tbody */
-tbody td {
-    padding: .5em .4em;
-    text-align: center;
-}
-tbody th {}
-tbody .alt td {}
-tbody .alt th {}
-
-/* Tfoot */
-tfoot th {}
-tfoot td {}
 
 
+img.profile_photo_false {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+img.profile_photo {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+img.profile_photo:hover {-webkit-filter: sepia(60%); filter: sepia(60%);}
 
+img.boxed {-webkit-filter: none; filter: none; margin: 0 20px;}
+img.boxed:hover {-webkit-filter: sepia(50%); filter: sepia(50%);}
+
+.obs {text-align: justify; font-size: 0.8em; padding: 0 10px;}
 
 .boxed {
-	margin: 0px 0px 40px 0px;
-	padding: 20px 0px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #dde;
-	border-radius: 20px;
+	margin: 0px auto;
+        margin-bottom: 40px;
+	width: 100%;
+	//padding: 20px 0px;
+	//border-style: solid;
+	//border-width: 1px;
+	//border-color: #dde;
+	//border-radius: 20px;
 	//background-color: #efefff;
-	background-color: #fafaff;
-	overflow: hidden;
+	//background-color: #fafaff;
+	//overflow: hidden;
 }
 
-.profile {
-	width: 33%;
-	margin-bottom: 40px;
-}
-
-.justify {
-	text-align: justify;
-	//text-justify: inter-word;
-}
-
-.profile_description  {
-	text-align: justify;
-	text-justify: inter-word;
-	padding: 10px 10px 0px 10px;
-}
-
-.profile_description h4 {
-	text-align: center;
-	//font: bold 12px/30px Georgia, serif;
-	font-style: bold;
-	//padding: 10px 20px;
-	margin-bottom: 2px;
-	color: #222;
-}
-
-.profile_description p {
-	text-align: center;
-	font-style: italic;
-	//padding: 0 50px;
-	padding: 0 0;
-	margin: 0 0;
-	font-size: 0.9em;
-	color: #777;
-}
+.justify {text-align: justify; text-justify: inter-word;}
+.center {margin-left: auto; margin-right: auto;}
+.left {float: left;}
+.right {float: right;}
+.grayscale {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+.round {border-radius: 50%;}
+.center {margin: 0 auto;}
+.block {display: block;}
 
 
-.center {
-	margin-left: auto;
-	margin-right: auto;
+p.copyright {
+    text-align: center;
+    padding: 5px 0;
+    margin: 0;
+    clear: both;
+    background-color: #666;
+    color: #BBB;
 }
 
 
 /*********** GENERIC IMAGES ***************/
 
-img.profile_photo_false {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	border-radius: 50%;
-	margin: 0 auto;
-	display: block;
-	width: 175px;
-	height: 175px;
-}
 
-img.profile_photo { 
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	border-radius: 50%;
-	margin: 0 auto;
-	display: block;
-	width: 175px;
-	height: 175px;
-}
 
-img.profile_photo:hover {
-	-webkit-filter: none;
-	filter: none;
-	-webkit-filter: sepia(60%);
-	filter: sepia(60%);
-}
+.instructors {margin-bottom: 10px; width: 100%;}
+.site-content hr.instructor-sep {margin-bottom: 30px; width: 30%; float: left;}
+.site-content hr.section-sep {margin-bottom: 15px; width: 30%;}
+.site-content hr.block-sep {margin: 50px auto; width: 60%;}
 
-.boxed img {
-	padding: 0 60px;
-	-webkit-filter: none;
-	filter: none;
-	border-radius: 50%;
-	width: 150px;
-	height: 150px;
+.content-wrapper {min-height: 500px;}
 
-}
+.social-icon {width: 48px; height: 48px;}
 
-.boxed img:hover {
-	-webkit-filter: sepia(50%);
-	filter: sepia(50%);
-}
+.facebook-icon circle {fill: #AAAAAA}
+.facebook-icon:hover circle {fill: #666}
+//.facebook-icon:hover circle {fill: #4E71A8}
 
-img#logo {
-	margin-top: 3px;
-	position: relative;
-	left: -380px;
-}
+.youtube-icon circle {fill: #AAAAAA}
+.youtube-icon:hover circle {fill: #666}
+//.youtube-icon:hover circle {fill: #CA3737}
 
-.left { float: left; }
-.right { float: right; }
-.grayscale {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-}
-.round { border-radius: 50%; }
-.center { margin: 0 auto; }
-.block { display: block; }
+.google-icon circle {fill: #AAAAAA}
+.google-icon:hover circle {fill: #666}
+//.google-icon:hover circle {fill: #E3411F}
 
-#information {
-        padding: 2em 0;
-}
 
-#location {
-    float: left;
-    width: 400px;
-    //margin-left: 20px;
-}
 
-#intro {
-        font-size: 1.3em;
-        padding: 2em 3em;
-        text-align: justify;
+.social-media-list li {display: inline-block; margin: 0 5px;}
+ul.social-media-list {margin: 0 auto; display: table;}
+
+
+h1.centertext {text-align: center;}
+h2.centertext {text-align: center;}
+
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+.imgBorder {
+  padding: 15px 15px 15px 15px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
 }
 
 
-#location h1 {text-align: center;}
 
-#horarios {
-    float: right;
-    width: 300px; 
-}
+/***************************************/
+/*********** IMAGE GALLERIES ***********/
+/***************************************/
+img.slideshow #home-image {-webkit-filter: sepia(80%); filter: sepia(80%);}
+.slide-container {}
+.slideshow { width: 80%; margin: 0 auto; height: 550px}
+.galleria{ width: 100%; height: 400px; background: $background-color }
+.site-content .wrapper {height: 100%; height: auto;}
 
-#horarios h1 {text-align: center;}
-.obs {
-	text-align: justify;
-	font-size: 0.8em;
-	padding: 0 10px;
-}
-
-#horarios table{
-	font-size: 15px;
-	width: 100%
-}
-
-#home{
-	background-image: url("../assets/home-background-5.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	//-webkit-filter: sepia(80%) blur(2px);
-	//filter: sepia(80%) blur(2px);
-	-webkit-filter: sepia(80%);
-	filter: sepia(80%);
-	min-height: 550px;
-	//background-size: 100% 800px;
-	width: 100%;
-}
-
-#home-image {
-	-webkit-filter: sepia(80%);
-	filter: sepia(80%);
-}
-
-#home-index img {
-	//-webkit-filter: grayscale(100%);
-	//filter: grayscale(100%);
-	-webkit-filter: sepia(50%);
-	//-webkit-filter: opacity(50%);
-}
-
-.instructors {
-	margin-bottom: 10px;
-	width: 100%;
-
-}
-
-.instructor_sep {
-	border: 0;
-	height: 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	margin-bottom: 30px;
-	width: 30%;
-}
-
-.section_sep {
-	border: 0;
-	height: 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	margin-bottom: 15px;
-	width: 30%;
-}
-
-
-.content-wrapper {
-	min-height: 500px;
-}
-
-#facebook-link:hover .inner-shape{
-	fill: #3b5998;
-}
-
-#gplus-link:hover .inner-shape{
-	fill: #dd4b39;
-}
-
-#youtube-link:hover .inner-shape{
-	fill: #bb0000;
-}
-
-//#slidy-container { 
-//  width: 960px; overflow: hidden; margin: 0 auto;
-//}
-
-#slideshow { 
-    margin: 0px auto; 
-    position: relative; 
-    width: 960px; 
-    height: 575px; 
-    padding: 0px; 
-}
-
-#slideshow > div { 
-    position: absolute; 
-    //top: 10px; 
-    //left: 10px; 
-    //right: 10px; 
-    //bottom: 10px; 
-}
+/*
+#slides .galleria-theme-classic .galleria-thumbnails-container {height: 0;}
+#slides .galleria-theme-classic .galleria-carousel .galleria-thumbnails-list {}
+#slides .galleria-theme-classic .galleria-thumbnails .galleria-image {height: 0;} 
+*/
