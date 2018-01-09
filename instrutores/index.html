@@ -1,88 +1,63 @@
 ---
-layout: page-notitle
+layout: default
 title: Instrutores de Aikido - Associação Reishin Kawai
 permalink: /instrutores/
 description: Conheça os instrutores de Aikido da Associação Reishin Kawai.
 ---
+<section class="profile-section">
+  <h1>Instrutores</h1>
+  <hr class="instructor-sep" />
+    <div class="profile-list">
+  {% for member in site.data.instructors['instructors'] %}
+    <figure class="profile">
+      <div class="image-wrapper">
+      {% if member.bio %}
+        <a href="{{ member.bio }}">
+          <img class="profile_photo" src="{{ member.photo }}" alt="{{ member.name }}" />
+        </a>
+      {% else %}
+        <img class="profile_photo_false" src="{{ member.photo }}" alt="{{ member.name }}" />
+      {% endif %}
+      </div>
 
-<div class="boxed">
-	<div class="left">
-		<a href="{{ site.baseurl }}/mestres/reishin-kawai.html">
-			<img src="{{ site.url }}/assets/kawai-perfil.jpg" alt="Kawai Sensei" height="150px" width="150px" />
-		</a>
-		<div class="profile_description">
-		<h4>Reishin Kawai</h4>
-		<p>Fundador da</p>
-		<p>União Sul-Americana</p>
-		<p>8º Dan</p>
-		</div>
+      <figcaption class="profile_description">
+        <h4>{{ member.name }}</h4>
+        {% if member.title %}
+          <p>{{ member.title }}</p>
+        {% endif %}
+	<p>{{ member.title2 }} &#8226; {{ member.rank }}</p>
+      </figcaption>
+    </figure>
+  {% endfor %}
+    </div>
+</section>
 
-	</div>
-	<div class="right" style="padding: 20px 35px 20px 0px; width: 400px;">
+<section class="profile-section">
+  <h2>Assistentes</h2>
+  <hr class="instructor-sep" />
+  <div class="profile-list">
+    {% for member in site.data.instructors['assistants'] %}
 
-	<blockquote style="font-size: 1em">
-	Minha profunda gratidão à grandiosa memória de Kawai Sensei por haver trazido
-       	ao Brasil essa importante ferramenta de prática de amor presenteada por Deus
-       	à humanidade, o Aikido. 
-	</blockquote>
+      <figure class="profile">
+        <div class="image-wrapper">
+        {% if member.bio %}
+          <a href="{{ member.bio }}">
+            <img class="profile_photo" src="{{ member.photo }}" alt="{{ member.name }}" />
+          </a>
+        {% else %}
+          <img class="profile_photo_false" src="{{ member.photo }}" alt="{{ member.name }}" />
+        {% endif %}
+        </div>
 
-	<footer>- <cite>Paulo Candéa, 2015</cite></footer>
-	</div>
-</div>
-
-<div class="instructors left">
-<h2 style="margin: 0px 0px; clear: left">Instrutores</h2>
-<p style="margin: 0px 0px 10px 0; padding: 0px 0px 10px 0px; color: #888; width: 75%; text-align: justify; bottom-border:  #ddd 2px dotted">
-</p>
-
-<hr class="instructor_sep" />
-
-{% for member in site.data.instructors['instructors'] %}
-<div class="profile left">
-	{% if member.bio %}
-	<a href="{{ site.baseurl }}/{{ member.bio }}">
-	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo"  />
-	</a>
-	{% else %}
-	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo_false"  />
-	{% endif %}
-
-	<div class="profile_description">
-		<h4>{{ member.name }}</h4>
-		<p>{{ member.title }}</p>
-		{% if member.nickname %}
-		<p>{{ member.nickname }}</p>
-		{% endif %}
-	</div>
-</div>
-{% endfor %}
-</div>
-
-
-<div class="instructors left">
-<h2 style="margin: 0px 0px; clear: left">Assistentes</h2>
-<p style="margin: 0px 0px 10px 0; padding: 0px 0px 10px 0px; color: #888; width: 75%; text-align: justify; bottom-border:  #ddd 2px dotted">
-</p>
-
-<hr class="instructor_sep" />
-
-{% for member in site.data.instructors['assistants'] %}
-<div class="profile left">
-	{% if member.bio %}
-	<a href="{{ site.baseurl }}/{{ member.bio }}">
-	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo"  />
-	</a>
-	{% else %}
-	<img src="{{ site.url }}/{{ member.photo }}" alt="{{ member.name }}" class="profile_photo_false"  />
-	{% endif %}
-
-	<div class="profile_description">
-		<h4>{{ member.name }}</h4>
-		<p>{{ member.title }}</p>
-		{% if member.nickname %}
-		<p>{{ member.nickname }}</p>
-		{% endif %}
-	</div>
-</div>
-{% endfor %}
-</div>
+        <figcaption class="profile_description">
+          <h4>{{ member.name }}</h4>
+          {% if member.title %}
+            <p>{{ member.title }}</p>
+          {% endif %}
+          <p>{{ member.title }}</p>
+	  <p>{{ member.title2 }} &#8226; {{ member.rank }}</p>
+        </figcaption>
+      </figure>
+    {% endfor %}
+  </div>
+</section>

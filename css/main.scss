@@ -3,14 +3,22 @@
 ---
 @charset "utf-8";
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+$font-weight: normal;
+
+$base-font-family: 'Domine', serif;
+$base-font-size:   15px;
 $base-line-height: 1.5;
 
+$header-font-family: 'Open Sans', sans-serif;
+$header-font-size: $base-font-size * 1.5;
+
+
+$small-font-size:  $base-font-size * 0.875;
+$details-font-family: 'Raleway', sans-serif;
+$details-font-size:   $base-font-size * 0.7;
+
 $spacing-unit:     20px;
-$spacing-row: 50px;
+$spacing-row: 	   50px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -20,12 +28,21 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$red-color:	   #994545;
+$red-color-light:  lighten($red-color, 40%);
+$red-color-dark:   darken($red-color, 25%);
+
 // Width of the content area
 $content-width:    800px;
+
+$footer-height: 125px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$slideshow-width:  $content-width;
+
+$home-height: ((720 * $content-width) / 960)px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -42,7 +59,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
+	"reset",
+    "base",
+    "layout",
 	"mystyle";
-

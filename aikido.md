@@ -1,5 +1,5 @@
 ---
-layout: page-notitle
+layout: default
 title: Aikido, arte marcial japonesa - Associação Reishin Kawai
 permalink: /aikido/
 description: Aikido é uma arte marcial japonesa para defesa pessoal que tem por princípio usar a força do adversário contra ele mesmo.
@@ -7,11 +7,11 @@ description: Aikido é uma arte marcial japonesa para defesa pessoal que tem por
 
 # *Aikido*, uma arte marcial moderna
 
-<img alt="Morihei Ueshiba projetando um aluno" src="{{ site.url }}/assets/morihei-aikido.jpg" width="100%" />
-
+<img style="width: 100%;" src="{{ site.url }}/assets/morihei-aikido.jpg" alt="Morihei Ueshiba projetando um aluno" />
 
 ## O que é *Aikido*?
 ---
+<!--<img class="alignleft imgBorder" src="{{ site.url }}/assets/morihei3.jpg" alt="" />-->
 O *Aikido* é uma **arte marcial japonesa** desenvolvida pelo mestre Morihei Ueshiba (1883-1969), ao longo
 das décadas de 1930 à 1960, sendo criado através da fusão das técnicas do *Daito-Ryu Aiki-jujutsu*
 (uma antiga arte marcial japonesa) e a filosofia de uma das novas religiões japonesas do começo
@@ -55,7 +55,7 @@ não só irá melhorar seu condicionamento físico, postura e capacidade respira
 benéficos para o seu bem-estar. Alguns chamam o *Aikido* de **meditação em movimento**.
 
 
-## Como são as técnicas de Aikido?
+## Como são as técnicas de *Aikido*?
 ---
 As técnicas de *Aikido* envolvem torções e chaves para controlar o atacante e imobilizá-lo, além de projeções
 para lançar o atacante para longe. Como uma verdadeira arte marcial, e ao contrário de esportes, o *Aikido*
@@ -74,7 +74,7 @@ O vídeo abaixo é uma demonstração de algumas técnicas de *Aikido*, realizad
 </div>
 
 
-## Como é um treino de Aikido?
+## Como é um treino de *Aikido*?
 ---
 No ínicio do treino se costuma realizar um breve alongamento/aquecimento, após isso o instrutor irá
 demonstrar algumas técnicas de sua escolha, e depois de cada demonstração duplas de alunos são formadas

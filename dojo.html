@@ -1,17 +1,20 @@
 ---
-layout: page-notitle
+layout: default
 title: Dojo de Aikido em Recife - Associação Reishin Kawai
 permalink: /dojo/
 description: Saiba mais sobre o nosso dojo e sua história, aprenda como chegar (localização) e descubra o horário das aulas.
 ---
+<h1>Dojo de Aikido</h1>
 
-<div class="justify">
-<p >A nossa associação se localiza em Recife, e foi fundada em 27 de
+<p>
+<img style="float: right; margin: 0 0 25px 25px;" width=333 height=250 src="/assets/dojo-small.jpg" alt="" />
+A Associação Reishin Kawai se localiza em Recife, e foi fundada em 27 de
 setembro de 2003, com o nome de Associação Recife de Aikido.
 Porém, à partir de 30 de janeiro de 2010, passou a ser denominada
 Associação Reishin Kawai, como forma de homenagear o nosso
 inesquecível Mestre Reishin Kawai, falecido em 26 de janeiro
-daquele ano.</p>
+daquele ano.
+</p>
 
 <p>
 A associação tem como objetivo fundamental a divulgação e ensino do
@@ -21,37 +24,46 @@ bem como o ensino das mais diversas técnicas de Medicina Oriental
 
 <p>
 Somos membros do <a href="//www.aikidoligabrasil.com">Aikido Liga Brasil</a>,
-uma das entidades representativas da <a href="//www.aikikai.or.jp/eng/">Aikikai</a>
+uma das entidades representantes da <a href="//www.aikikai.or.jp/eng/">Aikikai</a>
 no Brasil, e que tem como orientador técnico o Shihan Christian Tissier - 8º Dan.
 Somos presididos pelo Sensei Paulo Candéa (4º Dan), tendo como dojo-cho o
 Sensei Gilberto Francisco (3º Dan).
 </p>
 
-<p>
-Dê-nos a honra de sua visita! Um abraço e seja bem-vindo!
-</p>
-</div>
 
-<div id="information">
+<hr style="margin: 50px 0 50px 0; width: 100%" class="block-sep" />
 
-<div id="location">
-<h1>Localização</h1>
-
-<iframe style="display: block" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7900.994315744766!2d-34.92187136114006!3d-8.050661538225283!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xafe49d0fe5a0db24!2sAssocia%C3%A7%C3%A3o+Reishin+Kawai!5e0!3m2!1sen!2sbr!4v1423367522860" width="400" height="350" frameborder="0" style="border:0"></iframe>
-
-</div>
-
-<div id="horarios">
-<h1>Horário dos Treinos</h1>
+<h2>Horário dos Treinos</h2>
 <table>
 <thead>
-<tr>
-<th></th>
-<th>Manhã</th>
-<th>Noite</th>
-</tr>
+  <tr>
+    <th></th>
+    <th>SEG</th>
+    <th>TER</th>
+    <th>QUA</th>
+    <th>QUI</th>
+    <th>DOM*</th>
+  </tr>
 </thead>
 <tbody>
+<<<<<<< HEAD
+  <tr>
+    <td>Manhã</td>
+    <td>&#8212;</td>
+    <td>&#8212;</td>
+    <td>&#8212;</td>
+    <td>&#8212;</td>
+    <td>9:00 - 11:00</td>
+  </tr>
+  <tr>
+    <td>Noite</td>
+    <td>19:00 - 20:30</td>
+    <td>19:00 - 20:30</td>
+    <td>19:00 - 20:30</td>
+    <td>19:00 - 20:30</td>
+    <td>&#8212;</td>
+  </tr>
+=======
 <tr>
 <td>SEG</td>
 <td>&#8212;</td>
@@ -77,12 +89,37 @@ Dê-nos a honra de sua visita! Um abraço e seja bem-vindo!
 <td>9:00 - 11:00</td>
 <td>&#8212;</td>
 </tr>
+>>>>>>> cdef973848596d86f70596a71268120a3649748f
 </tbody>
 </table>
+<p style="width: 30%" class="obs">
+* : algumas aulas de domingo são fechadas
+para iniciantes (se informar com o sensei)
+</p>
 
-<p class="obs"> * : algumas aulas de domingo são fechadas para iniciantes (se informar com o sensei)</p>
+
+<hr style="margin: 50px 0 50px 0; width: 100%" class="block-sep" />
+
+
+<h2>Localização</h2>
+<iframe class="block" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7900.994315744766!2d-34.92187136114006!3d-8.050661538225283!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xafe49d0fe5a0db24!2sAssocia%C3%A7%C3%A3o+Reishin+Kawai!5e0!3m2!1sen!2sbr!4v1423367522860" width="100%" height="400px" frameborder="0"></iframe>
+
+
+<hr style="margin: 50px 0 50px 0; width: 100%" class="block-sep" />
+
+<div class="slide-container">
+  <h2>Galeria de Fotos</h2>
+  <div class="galleria">
+    <img src="/assets/grupo2.jpg" alt="" data-title="A" />
+    <img src="/assets/grupo3.jpg" alt="" data-title="B" />
+    <img src="/assets/grupo4.jpg" alt="" data-title="C" />
+  </div>
 </div>
-
-<br style="clear:both" />
-
-</div>
+<script>
+  Galleria.loadTheme("/js/galleria/themes/aikido/galleria.classic.js");
+  Galleria.run('.galleria', {
+    transition: 'fade',
+    imageCrop: true,
+    overlayBackground: "#a6a6a6",
+  });
+</script>
