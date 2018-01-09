@@ -1,2 +1,2 @@
 # aikidorecife.github.io
-Website for Associação Reishin Kawai (aikido dojo located in Recife - Brazil)
+Website for Makoto Aikidojo (aikido dojo located in Recife - Brazil)
