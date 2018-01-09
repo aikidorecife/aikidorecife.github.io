@@ -4,24 +4,25 @@ ueshiba_family:
         - name: Morihei Ueshiba
           title: Fundador do Aikido
           #nickname: "O'Sensei"
-          nickname: "&#9733;1883"
-          birth: "&#x271d;1969"
+          #nickname: "&#9733;1883"
+          #birth: "&#x271d;1969"
+          birth: "&#9733;1883 – &#x271d;1969"
           photo: "/assets/morihei4.jpg"
-          bio: "/mestres/morihei-ueshiba.html"
+          #bio: "/mestres/morihei-ueshiba.html"
 
         - name: Kisshomaru Ueshiba
           title: "2º Doshu"
           #birth: "&#9733;1921 – &#x271d;1999"
-          birth: "1921 – 1999"
+          birth: "&#9733;1921 – &#x271d;1999"
           photo: "/assets/kisshomaru.jpg"
-          bio: "/mestres/kisshomaru-ueshiba.html"
+          #bio: "/mestres/kisshomaru-ueshiba.html"
 
         - name: Moriteru Ueshiba
           title: "3º Doshu"
           birth: "&#9733;1951"
           #birth: "1951 – "
           photo: "/assets/moriteru.jpg"
-          bio: "/mestres/moriteru-ueshiba.html"
+          #bio: "/mestres/moriteru-ueshiba.html"
 
 other_masters:
         - name: Reishin Kawai
@@ -44,6 +45,6 @@ other_masters:
           birth: "&#9733;1950"
           #birth: "(1950 – )"
           photo: "/assets/seki.jpg"
-          bio: "/mestres/shoji-seki.html"
+          #bio: "/mestres/shoji-seki.html"
 
 

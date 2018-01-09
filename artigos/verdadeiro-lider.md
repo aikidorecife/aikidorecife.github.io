@@ -11,7 +11,7 @@ Mestre Kawai Sensei, e ao meditar sobre isso me ocorreu algo que gostaria de
 compartilhar não apenas com o público *aikidoísta*, mas com todos que têm ou
 que pelo menos alegam buscar a prática do amor.
 
-<img class="alignright imgBorder" src="../assets/kawai-articles.jpg" alt="Drawing" width="50%" height="50%" style="margin: 20px 0 10px 20px;"/>
+<img style="float:right; margin: 0 0 25px 25px;" class="imgBorder" src="../assets/kawai-articles.jpg" alt="Drawing" width="50%" height="50%"/>
 
 Kawai Sensei formou alguns milhares de *aikidoístas* em quase meio século que
 dedicou sua vida ao ensino e divulgação do *Aikido*, foi sempre exigente, mas

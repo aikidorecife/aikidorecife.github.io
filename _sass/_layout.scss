@@ -87,7 +87,7 @@ a.site-title {
     text-align: left;
 
     p {margin-bottom: $spacing-unit * 1.2;}
-    blockquote {p { margin-bottom: 0; }}
+    blockquote {p { margin-bottom: 0; text-align: center}}
 
     h2 {font-size: 1.6em; margin-top: 30px; @include media-query($on-laptop) {}}
     h3 {font-size: 1.5em; @include media-query($on-laptop) {}}
