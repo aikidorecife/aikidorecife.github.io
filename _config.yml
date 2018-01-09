@@ -1,11 +1,11 @@
 # Site settings
 #
-title: "Associação Reishin Kawai"
+title: "Makoto Aikidojo"
 email: thyago.porpino@gmail.com
 phone: 
 
 description: > # this means to ignore newlines until "baseurl:"
-        Associação Reishin Kawai - Aikido Recife é um dojo de Aikido,
+        Makoto Aikidojo - Aikido Recife é um dojo de Aikido,
         localizado na cidade de Recife, em Pernambuco, Brasil.
 
 baseurl: "" # the subpath of your site, e.g. /blog/

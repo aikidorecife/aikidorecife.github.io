@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Aikido, arte marcial japonesa - Associação Reishin Kawai
+title: Aikido, arte marcial japonesa - Makoto Aikidojo
 permalink: /aikido/
 description: Aikido é uma arte marcial japonesa para defesa pessoal que tem por princípio usar a força do adversário contra ele mesmo.
 ---
