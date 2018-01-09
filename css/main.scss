@@ -60,7 +60,6 @@ $home-height: ((720 * $content-width) / 960)px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"reset",
-        "base",
-        "layout",
-	"mystyle"
-;
+    "base",
+    "layout",
+	"mystyle";
