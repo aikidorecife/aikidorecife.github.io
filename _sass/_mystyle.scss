@@ -186,6 +186,17 @@ div#slideshow #home-image {-webkit-filter: sepia(80%); filter: sepia(80%);}
 .galleria{ width: 100%; height: 400px; background: $background-color }
 .site-content .wrapper {height: 100%; height: auto;}
 
+.contact-icon {
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+svg.contact-icon path {
+    fill: #555;
+
+}
+
 /*
 #slides .galleria-theme-classic .galleria-thumbnails-container {height: 0;}
 #slides .galleria-theme-classic .galleria-carousel .galleria-thumbnails-list {}
