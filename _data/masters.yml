@@ -47,4 +47,10 @@ other_masters:
           photo: "/assets/seki.jpg"
           #bio: "/mestres/shoji-seki.html"
 
+        - name: Christian Tissier
+          title: "8º Dan"
+          birth: "&#9733;1951"
+          photo: "/assets/tissier.jpg"
+          bio: "/mestres/christian-tissier.html"
+
 
