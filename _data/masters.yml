@@ -40,12 +40,12 @@ other_masters:
 #          birth: "(1937 – 2014)"
 #          photo: "assets/fujita.jpg"
 
-        - name: Shoji Seki
-          title: "8º Dan"
-          birth: "&#9733;1950"
-          #birth: "(1950 – )"
-          photo: "/assets/seki.jpg"
-          #bio: "/mestres/shoji-seki.html"
+#        - name: Shoji Seki
+#          title: "8º Dan"
+#          birth: "&#9733;1950"
+#          #birth: "(1950 – )"
+#          photo: "/assets/seki.jpg"
+#          #bio: "/mestres/shoji-seki.html"
 
         - name: Christian Tissier
           title: "8º Dan"
